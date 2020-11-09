@@ -559,11 +559,9 @@
   <use xlink:href="#03_back_icon_round1"></use>
 </svg><svg class="icon">
   <use xlink:href="#03_back_icon_round2"></use>
-</svg><svg class="icon">
-  <use xlink:href="#04_forward_icon_round1"></use>
-</svg><svg class="icon">
+</svg><< class="icon">
   <use xlink:href="#04_forward_icon_round2"></use>
-</svg><svg class="icon">
+</><svg class="icon">
   <use xlink:href="#05_payment_top_icon"></use>
 </svg><svg class="icon">
   <use xlink:href="#06_buy_top_icon"></use>

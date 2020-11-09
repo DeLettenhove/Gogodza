@@ -292,6 +292,35 @@
       </g>
     </g>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 142.157 83.595" id="07_01_hamburger_menu">
+    <defs>
+      <linearGradient x1="1177.727" y1="5384.102" x2="1177.727" y2="5423.347" gradientUnits="userSpaceOnUse" spreadMethod="pad" id="b">
+        <stop offset="0" stop-color="#fff"></stop>
+        <stop offset="1" stop-opacity="0" stop-color="#fff"></stop>
+      </linearGradient>
+      <linearGradient x1="1177.727" y1="5384.102" x2="1177.727" y2="5423.347" gradientUnits="userSpaceOnUse" spreadMethod="pad" id="e">
+        <stop offset="0" stop-color="#eee"></stop>
+        <stop offset="1" stop-color="#eee"></stop>
+      </linearGradient>
+      <clipPath clipPathUnits="userSpaceOnUse" id="c">
+        <path d="M2207.164 1116.395c-86.004 0-92.051.062-95.422.992-10.992 3.035-20.101 10.519-24.844 20.414-3.558 7.429-3.949 10.312-3.949 29.203 0 14.223-.121 16.633-.844 16.91-1.265.484-1.265 18.949 0 18.949.5 0 .715.668.797 3.375h248.493c-.01-4.316-.02-8.222-.02-14.062 0-46.242.043-45.676-4.324-54.66-4.672-9.598-13.762-17.082-24.406-20.09-3.485-.985-8.094-1.031-95.481-1.031z"></path>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="a">
+        <path d="M1004.278 5323.68h334.666v121.334h-334.666z"></path>
+      </clipPath>
+      <mask maskUnits="userSpaceOnUse" x="0" y="0" width="1" height="1" id="d">
+        <g clip-path="url(#a)">
+          <path d="M1004.278 5323.68h334.666v121.334h-334.666z" fill="url(#b)"></path>
+        </g>
+      </mask>
+    </defs>
+    <path d="M7.092 0A7.091 7.091 0 000 7.093a7.091 7.091 0 007.092 7.091h127.976a7.091 7.091 0 007.09-7.091A7.091 7.091 0 00135.067 0zm0 34.706A7.091 7.091 0 000 41.798a7.091 7.091 0 007.092 7.091h127.976a7.091 7.091 0 007.09-7.091 7.091 7.091 0 00-7.09-7.092zm0 34.706A7.091 7.091 0 000 76.503a7.091 7.091 0 007.092 7.092h127.976a7.091 7.091 0 007.09-7.092 7.091 7.091 0 00-7.09-7.091z" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill="#ffffff"></path>
+    <g clip-path="url(#c)" transform="matrix(1.25 0 0 1.25 2463.517 -20939.474)">
+      <g mask="url(#d)" transform="matrix(.75 0 0 .75 1327.792 -2876.76)">
+        <path d="M2207.164 1116.395c-86.004 0-92.051.062-95.422.992-10.992 3.035-20.101 10.519-24.844 20.414-3.558 7.429-3.949 10.312-3.949 29.203 0 14.223-.121 16.633-.844 16.91-1.265.484-1.265 18.949 0 18.949.5 0 .715.668.797 3.375h248.493c-.01-4.316-.02-8.222-.02-14.062 0-46.242.043-45.676-4.324-54.66-4.672-9.598-13.762-17.082-24.406-20.09-3.485-.985-8.094-1.031-95.481-1.031z" fill="url(#e)"></path>
+      </g>
+    </g>
+  </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.352 101.939" id="08_menu_home_icon">
     <defs>
       <linearGradient x1="1177.727" y1="5384.102" x2="1177.727" y2="5423.347" gradientUnits="userSpaceOnUse" spreadMethod="pad" id="b">

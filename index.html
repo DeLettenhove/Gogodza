@@ -15,314 +15,477 @@
     <script src="/js/main.js"></script>
   </head>
   <body>
-    <header class="header">
-      <div class="welcome">
-        <div class="welcome__title">
-          <img src="/img/01_top_illustration.png" alt="picture" class="welcome__bg"></img>
-            <svg class="icon welcome__btn">
-              <use xlink:href="/img/icons.svg#07_hamburger_menu"></use>
-            </svg>
-          <!-- /.welcome__btn -->
-        </div>
-        <!-- /.welcome__title -->
-        <div class="welcome__subtitle">
-          <img src="/img/02_text1.png" alt="text" class="welcome__text" />
-        </div>
-        <!-- /.welcome__subtitle -->
-      </div>
-      <!-- /.welcome -->
-      <div class="menu">
-        <ul class="menu__nav">
-          <li class="menu__item">
-            <svg class="menu__icon">
-              <use xlink:href="/img/icons.svg#08_menu_home_icon"></use>
-            </svg>
-          <a href="#" class="menu__link">На головну</a> <!-- /.menu__link --></li>
-          <!-- /.menu__item -->
-          <li class="menu__item">
-            <svg class="menu__icon">
-              <use xlink:href="/img/icons.svg#09_menu_buy_icon"></use>
-            </svg>
-            <a href="#" class="menu__link">Кошик</a> <!-- /.menu__link --></li>
-          <!-- /.menu__item -->
-          <li class="menu__item">
-            <svg class="menu__icon">
-              <use xlink:href="/img/icons.svg#10_menu_assortment_icon"></use>
-            </svg>
-            <a href="#" class="menu__link">Асортимент</a> <!-- /.menu__link --></li>
-          <!-- /.menu__item -->
-          <li class="menu__item">
-            <svg class="menu__icon">
-              <use xlink:href="/img/icons.svg#11_menu_payment_icon"></use>
-            </svg>
-            <a href="#" class="menu__link">Оплата</a> <!-- /.menu__link --></li>
-          <!-- /.menu__item -->
-          <li class="menu__item">
-            <svg class="menu__icon">
-              <use xlink:href="/img/icons.svg#12_menu_delivery_icon"></use>
-            </svg>
-            <a href="#" class="menu__link">Доставка</a> <!-- /.menu__link --></li>
-          <!-- /.menu__item -->
-          <li class="menu__item">
-            <svg class="menu__icon">
-              <use xlink:href="/img/icons.svg#13_menu_contacts_icon"></use>
-            </svg>
-            <a href="#" class="menu__link">Контакти</a> <!-- /.menu__link --></li>
-          <!-- /.menu__item -->
-        </ul>
-        <!-- /.menu__nav -->
-      </div>
-      <!-- /.menu -->
-    </header>
-    <!-- /.header -->
-
-    <main class="main">
-      <section class="product">
-        <div class="buttons product__buttons">
-          <button class="button product__button">
-            <h2 class="product__button-label">L</h2> <!-- /.product__button-label -->
-            <span class="product__button-count">24 шт.</span> <!-- /.product__button-count -->
-          </button>
-          <!-- /.product__button -->
-          <button class="button product__button">
-            <h2 class="product__button-label">M</h2> <!-- /.product__button-label -->
-            <span class="product__button-count">16 шт.</span> <!-- /.product__button-count -->
-          </button>
-          <!-- /.product__button -->
-          <button class="button product__button">
-            <h2 class="product__button-label">S</h2> <!-- /.product__button-label -->
-            <span class="product__button-count">8 шт.</span> <!-- /.product__button-count -->
-          </button>
-          <!-- /.product__button -->
-        </div>
-        <!-- /.product__buttons -->
-        
-        <div class="container">
-          <div class="slider">
-          <div class="slider__item">
-            <h5 class="slider__title">Пакунок льодяників</h5>
-            <!-- /.slider__title -->
-            <h2 class="slider__name">"Сімейний"</h2>
-            <!-- /.slider__name -->
-            <img src="/img/02_L_test_image.jpg" alt="candy" class="slider__img">
-            <div class="slider__price">256 грн.</div>
-            <!-- /.slider__price -->  
-            <div class="slider__count">
-              <button class="slider__count-pre">-</button>
-              <!-- /.slider__count-pre -->
-              <button class="slider__count-body">3</button>
-              <!-- /.slider__count-body -->
-              <button class="slider__count-after">+</button>
-              <!-- /.slider__count-after -->
-            </div>
-            <!-- /.slider__count -->
-            <div class="slider__button">
-              <svg class="slider__cart">
-                <use xlink:href="/img/icons.svg#02_buy_icon_round1"></use>
+    <div class="hidden">
+      <header class="header">
+        <div class="welcome">
+          <div class="welcome__title">
+            <img src="/img/01_top_illustration.png" alt="picture" class="welcome__bg"></img>
+            <button class="menu-btn">
+              <svg class="icon welcome__btn">
+                <use xlink:href="/img/icons.svg#07_hamburger_menu"></use>
               </svg>
-            </div>
+            <!-- /.welcome__btn -->
+            </button> <!-- /.menu-btn -->
           </div>
-          <!-- /.slider__inner -->
-
-          <div class="slider__item">
-            <h5 class="slider__title">Пакунок льодяників</h5>
-            <!-- /.slider__title -->
-            <h2 class="slider__name">"Сімейний"</h2>
-            <!-- /.slider__name -->
-            <img src="/img/02_L_test_image.jpg" alt="candy" class="slider__img">
-            <div class="slider__price">256 грн.</div>
-            <!-- /.slider__price -->  
-            <div class="slider__count">
-              <button class="slider__count-pre">-</button>
-              <!-- /.slider__count-pre -->
-              <button class="slider__count-body">3</button>
-              <!-- /.slider__count-body -->
-              <button class="slider__count-after">+</button>
-              <!-- /.slider__count-after -->
-            </div>
-            <!-- /.slider__count -->
-            <div class="slider__button">
-              <svg class="slider__cart">
-                <use xlink:href="/img/icons.svg#02_buy_icon_round1"></use>
+          <!-- /.welcome__title -->
+          <div class="welcome__subtitle">
+            <img src="/img/02_text1.png" alt="text" class="welcome__text" />
+          </div>
+          <!-- /.welcome__subtitle -->
+        </div>
+        <!-- /.welcome -->
+        <div class="menu">
+          <ul class="menu__nav">
+            <li class="menu__item">
+              <svg class="menu__icon">
+                <use xlink:href="/img/icons.svg#08_menu_home_icon"></use>
               </svg>
-            </div>
-          </div>
-          <!-- /.slider__inner -->
-
-          <div class="slider__item">
-            <h5 class="slider__title">Пакунок льодяників</h5>
-            <!-- /.slider__title -->
-            <h2 class="slider__name">"Сімейний"</h2>
-            <!-- /.slider__name -->
-            <img src="/img/02_L_test_image.jpg" alt="candy" class="slider__img">
-            <div class="slider__price">256 грн.</div>
-            <!-- /.slider__price -->  
-            <div class="slider__count">
-              <button class="slider__count-pre">-</button>
-              <!-- /.slider__count-pre -->
-              <button class="slider__count-body">3</button>
-              <!-- /.slider__count-body -->
-              <button class="slider__count-after">+</button>
-              <!-- /.slider__count-after -->
-            </div>
-            <!-- /.slider__count -->
-            <div class="slider__button">
-              <svg class="slider__cart">
-                <use xlink:href="/img/icons.svg#02_buy_icon_round1"></use>
+            <a href="#" class="menu__link">На головну</a> <!-- /.menu__link --></li>
+            <!-- /.menu__item -->
+            <li class="menu__item">
+              <svg class="menu__icon">
+                <use xlink:href="/img/icons.svg#09_menu_buy_icon"></use>
               </svg>
-            </div>
-          </div>
-          <!-- /.slider__inner -->
-        </div>
-        <!-- /.slider --></div>
-
-        <img src="/img/03_background.png" alt="" class="product__footer">
-          <!-- /.slider__footer -->
-        
-      </section>
-      <!-- /.product -->
-      
-      <section class="about">
-        <div class="about__head">
-          <div class="about__logo">
-            <svg class="about__logo-img">
-              <use xlink:href="/img/icons.svg#01_gogodza_icon"></use>
-            </svg>
-          </div>
-          <h6 class="about__title">Інтернет-магазин</h6>
-          <h2 class="about__name">Gogodza Candy</h2>
-        </div>
-        <!-- /.about__head -->
-        <div class="about__content">
-          <div class="about__top">
-            <div class="about__top-inner"></div>
-            <!-- /.about__top-inner -->
-          </div>
-          <!-- /.about__top -->
-          <div class="about__item">
-            <p class="about__text">ТМ Гогодза - це український виробник
-              льодяників із справжніх висушених
-              лісових ягод та шматочків фруктів.
-              Ми не використовуємо синтетичних
-              барвників, які фарбують дитячий язик
-              та шкодять здоров‘ю.</p>
-            <!-- /.about__text -->
-            <img class="about__img" src="/img/04_image.jpg" alt="photo">
-            <!-- /.about__img -->
-            <p class="about__text">Ягоди та фрукти нічим не оброблені,
-              тільки висушені при оптимальних
-              температурах згідно ДСТ України.</p>
-            <!-- /.about__tetx -->
-          </div>
-        </div>
-        <!-- /.about__content -->
-        <div class="about__footer">
-          <img src="/img/05_text.png" alt="text" class="about__subtitle">
-          <img src="/img/06_image.jpg" alt="img" class="about__footer-bg">
-        </div>
-        <!-- /.about__footer -->
-      </section>
-      <!-- /.about -->
-      
-      <section class="info">
-        <div class="buttons info__buttons">
-          <button class="button info__button">Доставка</button> 
-          <!-- /.info__btn -->
-          <button class="button info__button">Оплата</button> 
-          <!-- /.info__btn -->
-        </div>
-        <!-- /.info__buttons -->
-        <div class="info-card info__post">
-          <img src="/img/07_nova_poshta_logo.png" alt="NovaPoshta" class="info__post-img">
-          <img src="/img/08_ukrposhta_logo.png" alt="UkrPoshta" class="info__post-img">
-        </div>
-        <!-- /.info__post -->
-        <div class="info-card info__pay">
-          <ul class="info__pay-list">
-            <li class="info__pay-item">
-              <span class="info__pay-text">банківською карткою на сайті</span>
-            </li>
-            <!-- /.info__pay-item -->
-            <li class="info__pay-item">
-              <span class="info__pay-text">наложним платежем
-              у службі доставки</span></li>
-            <!-- /.info__pay-item -->
+              <a href="#" class="menu__link">Кошик</a> <!-- /.menu__link --></li>
+            <!-- /.menu__item -->
+            <li class="menu__item">
+              <svg class="menu__icon">
+                <use xlink:href="/img/icons.svg#10_menu_assortment_icon"></use>
+              </svg>
+              <a href="#" class="menu__link">Асортимент</a> <!-- /.menu__link --></li>
+            <!-- /.menu__item -->
+            <li class="menu__item">
+              <svg class="menu__icon">
+                <use xlink:href="/img/icons.svg#11_menu_payment_icon"></use>
+              </svg>
+              <a href="#" class="menu__link">Оплата</a> <!-- /.menu__link --></li>
+            <!-- /.menu__item -->
+            <li class="menu__item">
+              <svg class="menu__icon">
+                <use xlink:href="/img/icons.svg#12_menu_delivery_icon"></use>
+              </svg>
+              <a href="#" class="menu__link">Доставка</a> <!-- /.menu__link --></li>
+            <!-- /.menu__item -->
+            <li class="menu__item">
+              <svg class="menu__icon">
+                <use xlink:href="/img/icons.svg#13_menu_contacts_icon"></use>
+              </svg>
+              <a href="#" class="menu__link">Контакти</a> <!-- /.menu__link --></li>
+            <!-- /.menu__item -->
           </ul>
-          <!-- /.info__pay-list -->
+          <!-- /.menu__nav -->
         </div>
-        <div class="info__payment">
-          <img src="/img/09_visa_icon.png" alt="" class="info__payment-img">
-          <img src="/img/10_mastercard_icon.png" alt="" class="info__payment-img">
-          <img src="/img/11_liqpay_icon.png" alt="" class="info__payment-img liqpay">
-        </div>
-        <!-- /.info__payment -->
-      </section>
-      <!-- /.info -->
-
-    </main>
-    <!-- /.main -->
-
-    <fotter class="footer">
-      <div class="contact">
-        <div class="contact__inner">
-          <div class="contact__icons">
-            <svg class="contact__icon">
-              <use xlink:href="/img/icons.svg#14_footer_telegram_icon"></use>
-            </svg>
-            <svg class="contact__icon">
-              <use xlink:href="/img/icons.svg#15_footer_viber_icon"></use>
-            </svg>
-            <svg class="contact__icon">
-              <use xlink:href="/img/icons.svg#16_footer_insta_icon"></use>
-            </svg>
-            <svg class="contact__icon">
-              <use xlink:href="/img/icons.svg#17_footer_call_icon"></use>
-            </svg>
-            <svg class="contact__icon">
-              <use xlink:href="/img/icons.svg#18_footer_email_icon"></use>
-            </svg>
+        <!-- /.menu -->
+      </header>
+      <!-- /.header -->
+  
+      <main class="main">
+        <section class="product">
+          <div class="buttons product__buttons">
+            <button class="button product__button">
+              <h2 class="product__button-label">L</h2> <!-- /.product__button-label -->
+              <span class="product__button-count">24 шт.</span> <!-- /.product__button-count -->
+            </button>
+            <!-- /.product__button -->
+            <button class="button product__button">
+              <h2 class="product__button-label">M</h2> <!-- /.product__button-label -->
+              <span class="product__button-count">16 шт.</span> <!-- /.product__button-count -->
+            </button>
+            <!-- /.product__button -->
+            <button class="button product__button">
+              <h2 class="product__button-label">S</h2> <!-- /.product__button-label -->
+              <span class="product__button-count">8 шт.</span> <!-- /.product__button-count -->
+            </button>
+            <!-- /.product__button -->
           </div>
-          <!-- /.footer__icons -->
-          <div class="contact__phone">+380 (67) 111 74 00</div>
-          <!-- /.contact__phone -->
-          <div class="contact__address">м. Чернівці, просп. Незалежності 104 А</div>
-          <!-- /.contact__address -->
-          <div class="contact__agreement">
-            <div class="contact__agreement-img">
-              <svg class="contact__agreement-icon">
-                <use xlink:href="/img/icons.svg#24_footer_agreement_icon"></use>
+          <!-- /.product__buttons -->
+          
+          <div class="container">
+            <div class="slider">
+            <div class="slider__item">
+              <h5 class="slider__title">Пакунок льодяників</h5>
+              <!-- /.slider__title -->
+              <h2 class="slider__name">"Сімейний"</h2>
+              <!-- /.slider__name -->
+              <img src="/img/02_L_test_image.jpg" alt="candy" class="slider__img">
+              <div class="slider__price">256 грн.</div>
+              <!-- /.slider__price -->  
+              <div class="slider__count count">
+                <button class="slider__count-pre count-pre">-</button>
+                <!-- /.slider__count-pre -->
+                <button class="slider__count-body count-body">3</button>
+                <!-- /.slider__count-body -->
+                <button class="slider__count-after count-after">+</button>
+                <!-- /.slider__count-after -->
+              </div>
+              <!-- /.slider__count -->
+              <div class="slider__button">
+                <svg class="slider__cart">
+                  <use xlink:href="/img/icons.svg#02_buy_icon_round1"></use>
+                </svg>
+              </div>
+            </div>
+            <!-- /.slider__inner -->
+  
+            <div class="slider__item">
+              <h5 class="slider__title">Пакунок льодяників</h5>
+              <!-- /.slider__title -->
+              <h2 class="slider__name">"Дитячий"</h2>
+              <!-- /.slider__name -->
+              <img src="/img/02_M_test_image.jpg" alt="candy" class="slider__img">
+              <div class="slider__price">180 грн.</div>
+              <!-- /.slider__price -->  
+              <div class="slider__count">
+                <button class="slider__count-pre">-</button>
+                <!-- /.slider__count-pre -->
+                <button class="slider__count-body">6</button>
+                <!-- /.slider__count-body -->
+                <button class="slider__count-after">+</button>
+                <!-- /.slider__count-after -->
+              </div>
+              <!-- /.slider__count -->
+              <div class="slider__button">
+                <svg class="slider__cart">
+                  <use xlink:href="/img/icons.svg#02_buy_icon_round1"></use>
+                </svg>
+              </div>
+            </div>
+            <!-- /.slider__inner -->
+  
+            <div class="slider__item">
+              <h5 class="slider__title">Пакунок льодяників</h5>
+              <!-- /.slider__title -->
+              <h2 class="slider__name">"Для мене"</h2>
+              <!-- /.slider__name -->
+              <img src="/img/02_S_test_image.jpg" alt="candy" class="slider__img">
+              <div class="slider__price">90 грн.</div>
+              <!-- /.slider__price -->  
+              <div class="slider__count">
+                <button class="slider__count-pre">-</button>
+                <!-- /.slider__count-pre -->
+                <button class="slider__count-body">7</button>
+                <!-- /.slider__count-body -->
+                <button class="slider__count-after">+</button>
+                <!-- /.slider__count-after -->
+              </div>
+              <!-- /.slider__count -->
+              <div class="slider__button">
+                <svg class="slider__cart">
+                  <use xlink:href="/img/icons.svg#02_buy_icon_round1"></use>
+                </svg>
+              </div>
+            </div>
+            <!-- /.slider__inner -->
+          </div>
+          <!-- /.slider --></div>
+  
+          <img src="/img/03_background.png" alt="" class="product__footer">
+            <!-- /.slider__footer -->
+          
+        </section>
+        <!-- /.product -->      
+        <section class="about">
+          <div class="head about__head">
+            <div class="logo about__logo">
+              <svg class="logo-img about__logo-img">
+                <use xlink:href="/img/icons.svg#01_gogodza_icon"></use>
               </svg>
             </div>
-          <!-- /.contact__agreement-img -->
-            <a href="" class="contact__agreement-text">Договорі публічної оферти</a> 
-            <!-- /.contact__agreement-text -->
+            <h6 class="company-title about__title">Інтернет-магазин</h6>
+            <h2 class="company-name about__name">Gogodza Candy</h2>
           </div>
-          <!-- /.contact__agreement -->
-          <a href="#" class="contact__link">gogodza.com.ua, 2020</a> 
-          <!-- /.contact__link -->
+          <!-- /.about__head -->
+          <div class="about__content">
+            <div class="about__item">
+              <p class="about__text">ТМ Гогодза - це український виробник
+                льодяників із справжніх висушених
+                лісових ягод та шматочків фруктів.
+                Ми не використовуємо синтетичних
+                барвників, які фарбують дитячий язик
+                та шкодять здоров‘ю.</p>
+              <!-- /.about__text -->
+              <img class="about__img" src="/img/04_image.jpg" alt="photo">
+              <!-- /.about__img -->
+              <p class="about__text">Ягоди та фрукти нічим не оброблені,
+                тільки висушені при оптимальних
+                температурах згідно ДСТ України.</p>
+              <!-- /.about__tetx -->
+            </div>
+          </div>
+          <!-- /.about__content -->
+          <div class="about__footer">
+            <img src="/img/05_text.png" alt="text" class="about__subtitle">
+            <img src="/img/06_image.jpg" alt="img" class="about__footer-bg">
+          </div>
+          <!-- /.about__footer -->
+        </section>
+        <!-- /.about -->      
+        <section class="info">
+          <div class="buttons info__buttons">
+            <button class="button info__button">Доставка</button> 
+            <!-- /.info__btn -->
+            <button class="button info__button">Оплата</button> 
+            <!-- /.info__btn -->
+          </div>
+          <!-- /.info__buttons -->
+          <div class="info-card info__post">
+            <img src="/img/07_nova_poshta_logo.png" alt="NovaPoshta" class="info__post-img">
+            <img src="/img/08_ukrposhta_logo.png" alt="UkrPoshta" class="info__post-img">
+          </div>
+          <!-- /.info__post -->
+          <div class="info-card info__pay">
+            <ul class="info__pay-list">
+              <li class="info__pay-item">
+                <span class="info__pay-text">банківською карткою на сайті</span>
+              </li>
+              <!-- /.info__pay-item -->
+              <li class="info__pay-item">
+                <span class="info__pay-text">наложним платежем
+                у службі доставки</span></li>
+              <!-- /.info__pay-item -->
+            </ul>
+            <!-- /.info__pay-list -->
+          </div>
+          <div class="info__payment">
+            <img src="/img/09_visa_icon.png" alt="" class="info__payment-img">
+            <img src="/img/10_mastercard_icon.png" alt="" class="info__payment-img">
+            <img src="/img/11_liqpay_icon.png" alt="" class="info__payment-img liqpay">
+          </div>
+          <!-- /.info__payment -->
+        </section>
+        <!-- /.info -->
+      </main>
+      <!-- /.main -->
+  
+      <fotter class="footer">
+        <div class="contact">
+          <div class="contact__inner">
+            <div class="contact__icons">
+              <svg class="contact__icon">
+                <use xlink:href="/img/icons.svg#14_footer_telegram_icon"></use>
+              </svg>
+              <svg class="contact__icon">
+                <use xlink:href="/img/icons.svg#15_footer_viber_icon"></use>
+              </svg>
+              <svg class="contact__icon">
+                <use xlink:href="/img/icons.svg#16_footer_insta_icon"></use>
+              </svg>
+              <svg class="contact__icon">
+                <use xlink:href="/img/icons.svg#17_footer_call_icon"></use>
+              </svg>
+              <svg class="contact__icon">
+                <use xlink:href="/img/icons.svg#18_footer_email_icon"></use>
+              </svg>
+            </div>
+            <!-- /.footer__icons -->
+            <div class="contact__phone">+380 (67) 111 74 00</div>
+            <!-- /.contact__phone -->
+            <div class="contact__address">м. Чернівці, просп. Незалежності 104 А</div>
+            <!-- /.contact__address -->
+            <div class="contact__agreement">
+              <div class="contact__agreement-img">
+                <svg class="contact__agreement-icon">
+                  <use xlink:href="/img/icons.svg#24_footer_agreement_icon"></use>
+                </svg>
+              </div>
+            <!-- /.contact__agreement-img -->
+              <a href="" class="contact__agreement-text">Договорі публічної оферти</a> 
+              <!-- /.contact__agreement-text -->
+            </div>
+            <!-- /.contact__agreement -->
+            <a href="#" class="contact__link">gogodza.com.ua, 2020</a> 
+            <!-- /.contact__link -->
+          </div>
+          <!-- /.contact__inner -->
         </div>
-        <!-- /.contact__inner -->
-      </div>
-      <!-- /.contact -->
-    </fotter>
-    <!-- /.footer -->
-    <div class="basket">
-      <div class="basket__box">
-        <div class="basket__text">У кошику:</div>
-        <!-- /.basket__text -->
-        <div class="basket__description">5 шт.</div>
-        <!-- /.basket__description -->
-        <div class="basket__text">Вартість:</div>
-        <!-- /.basket__text -->
-        <div class="basket__description">768 грн.</div>
-        <!-- /.basket__description -->
-      </div>
-      <!-- /.basket__box -->
-      <svg class="basket__togo">
-        <use xlink:href="/img/icons.svg#04_forward_icon_round1"></use>
-      </svg>
-      <!-- /.busket__togo -->
+        <!-- /.contact -->
+      </fotter>
+      <!-- /.footer -->
+  
+      <section class="basket">
+        <div class="basket__box">
+          <div class="basket__text">У кошику:</div>
+          <!-- /.basket__text -->
+          <div class="basket__description">5 шт.</div>
+          <!-- /.basket__description -->
+          <div class="basket__text">Вартість:</div>
+          <!-- /.basket__text -->
+          <div class="basket__description">768 грн.</div>
+          <!-- /.basket__description -->
+        </div>
+        <!-- /.basket__box -->
+        <button class="basket__btn togo-btn">
+          <svg class="arrow-btn">
+            <use xlink:href="/img/icons.svg#04_forward_icon_round1"></use>
+          </svg>
+        </button> 
+        <!-- /.basket__btn -->
+      </section>
+      <!-- /.basket -->
     </div>
-    <!-- /.basket -->
+    <!-- /.hidden -->
+
+    <section class="modal">
+      <div class="menu-btn">
+          <svg class="icon modal__btn">
+            <use xlink:href="/img/icons.svg#07_01_hamburger_menu"></use>
+          </svg>
+      </div>
+      <div class="head modal__head">
+        <div class="logo modal__logo">
+          <svg class="logo-img modal__logo-img">
+            <use xlink:href="/img/icons.svg#01_gogodza_icon"></use>
+          </svg>
+        </div>
+        <h6 class="company-title modal__title">Інтернет-магазин</h6>
+        <h2 class="company-name modal__name">Gogodza Candy</h2>
+      </div>
+      <!-- /.modal__head -->
+      <div class="modal__bg">
+        <img src="/img/03_background.png" alt="bg" class="modal__bg-img">
+      </div>
+      <!-- /.modal__bg -->
+      <div class="modal__content">
+        <div class="h6 modal__content-title">Договір публічної оферти</div>
+        <!-- /.h6 modal__content-title -->
+        <p class="modal__content-text">Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor
+          in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa
+          qui officia deserunt mollit anim id est laborum.</p>
+        <!-- /.modal__content-text -->
+        <p class="modal__content-text">Sed ut perspiciatis unde omnis iste natus error
+          sit voluptatem accusantium doloremque
+          laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis et quasi
+          architecto beatae vitae dicta sunt explicabo.</p>
+        <!-- /.modal__content-text -->
+        <p class="modal__content-text">Nemo enim ipsam voluptatem quia voluptas
+          sit aspernatur aut odit aut fugit, sed quia
+          consequuntur magni dolores eos qui ratione
+          voluptatem sequi nesciunt. Neque porro
+          quisquam est, qui dolorem ipsum quia dolor
+          sit amet, consectetur, adipisci velit, sed quia
+          non numquam eius modi tempora incidunt ut
+          labore et dolore magnam aliquam quaerat
+          voluptatem. Ut enim ad minima veniam, quis
+          nostrum exercitationem ullam corporis
+          suscipit laboriosam, nisi ut aliquid ex ea
+          commodi consequatur? Quis autem vel eum
+          iure reprehenderit qui in ea voluptate velit
+          esse quam nihil molestiae consequatur, vel
+          illum qui dolorem eum fugiat quo voluptas
+          nulla pariatur?</p>
+        <!-- /.modal__content-text -->
+      </div>
+      <!-- /.modal__content -->
+      <div class="modal__footer">
+        <button class="modal__btn togo-btn">
+          <svg class="arrow-btn">
+            <use xlink:href="/img/icons.svg#03_back_icon_round1"></use>
+          </svg>
+        </button> <!-- /.arrow-btn modal__btn -->
+      </div>
+      <!-- /.modal__footer -->
+    </section>
+    <!-- /.modal -->
+
+    <div class="order">
+      <div class="order__header">
+        <button class="menu-btn order__btn">
+          <svg class="icon modal__btn">
+            <use xlink:href="/img/icons.svg#07_01_hamburger_menu"></use>
+          </svg>
+        </button>
+        <div class="head order__head">
+          <div class="logo order  __logo">
+            <svg class="logo-img order__logo-img">
+              <use xlink:href="/img/icons.svg#02_buy_icon_round2"></use>
+          </svg>
+        </div>
+        <h2 class="company-name order__name">Оформити замовлення</h2>
+      </div>
+      <div class="order__bg">
+        <img src="/img/12_order_background.png" alt="bg" class="order__bg-img">
+      </div>
+      <!-- /.modal__bg -->
+      </div>
+      <!-- /.order__header -->
+      <div class="order__item">
+        <div class="order__item-pre">
+          <img src="" alt="" class="order__img">
+          <div class="order__price"></div>
+          <!-- /.order__price -->
+        </div>
+        <!-- /.order__item-pre -->
+        <div class="order__item-after">
+          <div class="order__item-name"></div>
+          <!-- /.order__item-name -->
+          <div class="order__count count">
+            <button class="order__count-pre count-pre">-</button>
+            <!-- /.slider__count-pre -->
+            <button class="order__count-body count-body">3</button>
+            <!-- /.slider__count-body -->
+            <button class="order__count-after count-after">+</button>
+            <!-- /.slider__count-after -->
+          </div>
+          <!-- /.slider__count -->
+        </div>
+        <!-- /.order__item-after -->
+      </div>
+      <!-- /.order__item -->
+      <div class="order__item">
+        <div class="order__item-pre">
+          <img src="" alt="" class="order__img">
+          <div class="order__price"></div>
+          <!-- /.order__price -->
+        </div>
+        <!-- /.order__item-pre -->
+        <div class="order__item-after">
+          <div class="order__item-name"></div>
+          <!-- /.order__item-name -->
+          <div class="order__count count">
+            <button class="order__count-pre count-pre">-</button>
+            <!-- /.slider__count-pre -->
+            <button class="order__count-body count-body">3</button>
+            <!-- /.slider__count-body -->
+            <button class="order__count-after count-after">+</button>
+            <!-- /.slider__count-after -->
+          </div>
+          <!-- /.slider__count -->
+        </div>
+        <!-- /.order__item-after -->
+      </div>
+      <!-- /.order__item -->
+      <div class="order__item">
+        <div class="order__item-pre">
+          <img src="" alt="" class="order__img">
+          <div class="order__price"></div>
+          <!-- /.order__price -->
+        </div>
+        <!-- /.order__item-pre -->
+        <div class="order__item-after">
+          <div class="order__item-name"></div>
+          <!-- /.order__item-name -->
+          <div class="order__count count">
+            <button class="order__count-pre count-pre">-</button>
+            <!-- /.slider__count-pre -->
+            <button class="order__count-body count-body">3</button>
+            <!-- /.slider__count-body -->
+            <button class="order__count-after count-after">+</button>
+            <!-- /.slider__count-after -->
+          </div>
+          <!-- /.slider__count -->
+        </div>
+        <!-- /.order__item-after -->
+      </div>
+      <!-- /.order__item -->
+    </div>
+    <!-- /.order -->
   </body>
 </html>

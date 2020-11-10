@@ -329,18 +329,18 @@
   font-size: 12px;
   font-weight: 600;
 }
-.contact__inner {
+.contact__inner, .status__inner {
   max-width: 75%;
   margin: auto;
   padding-bottom: 20px;
 }
-.contact__icons {
+.contact__icons, .status__icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
 }
-.contact__icon {
+.contact__icon, .status__icon {
   width: 25px;
   height: 25px;
 }
@@ -409,15 +409,19 @@
   margin-left: 30px;
   margin-bottom: 15px;
 }
-.order__head {
+
+.order {
+  display: none;
+}
+.head {
   background: #a5c64f;
   padding-bottom: 10px;
 }
-.order__bg-img {
+.bg-img {
   max-width: 100%;
 }
 .company-name {
-  max-width: 70%;
+  max-width: 60%;
   margin: auto;
 }
 .order__item {
@@ -514,11 +518,61 @@
 .order__ukrpost {
   display: none;
 }
-.order__btn {
+.order__btn, .fee__btn, .status__btn {
   margin-left: 87%;
   margin-top: 30px;
   margin-bottom: 20px;
   box-shadow: 0px 0px 5px #a5c64f;
+}
+
+.fee {
+  display: none;
+}
+.fee__content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  color: #999999;
+  font-size: 12px;
+}
+.fee__title {
+  flex-basis: 35%;
+  font-style: italic;
+  text-align: right;
+  margin-left: 10px;
+}
+.fee__descr {
+  flex-basis: 55%;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.fee__btn, .status__btn {
+  margin-left: 80%;
+}
+
+.status__denied {
+  display: none;
+}
+.status__img {
+  display: block;
+  max-width: 70%;
+  margin: auto;
+  padding-top: 10%;
+}
+.status__descr {
+  color: #fff;
+  font-size: 12px;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.status__img-deny {
+  max-width: 50%;
+}
+.status__icons {
+  margin-bottom: 20px;
 }
 
 .basket {

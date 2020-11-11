@@ -5,9 +5,6 @@
   box-sizing: border-box;
 } 
 
-.welcome {
-  display: none;
-}
 .welcome__bg {
   object-fit: contain;
   max-width: 100%;
@@ -36,7 +33,7 @@
   margin-bottom: 25px;
 }
 .menu {
-  /* display: none; */
+  display: none;
   background: #e65081;
 }
 .menu__nav {
@@ -62,9 +59,7 @@
   margin-right: 20px;
 }
 
-.product {
-  /* position: relative; */
-}
+
 .product__buttons,
 .buttons {
   background: #e65081;
@@ -99,8 +94,8 @@
 }
 
 .slider {
-  /* position: absolute; */
-  top: -20px;
+  margin-top: -20px;
+  overflow: hidden;
 }
 .slider__item, .about__item {
   position: relative;
@@ -189,11 +184,13 @@
 }
 
 .about__content {
-  position: relative;
 }
 .head {
   background: #e65081;
   padding-bottom: 80px;
+}
+.about__head {
+  margin-top: -10px;
 }
 .logo {
   text-align: center;
@@ -209,9 +206,11 @@
   color: #fff;
   text-align: center;
 }
+.about__name {
+  padding-bottom: 70px;
+}
 .about__item {
-  position: absolute;
-  top: -40px;
+  margin-top: -40px;
   max-width: 90%;
   margin-left: 20px;
   margin-right: 20px;
@@ -234,38 +233,34 @@
 }
 .about__subtitle {
   padding: 30px 30px;
+  padding-top: 70px;
   max-width: 100%;
   background: #a5c64f;
-  margin-top: 410px;
-  padding-top: 60px;
+  margin-top: -60px;
 }
 .about__footer-bg {
+  margin-top: -10px;
   max-width: 100%;
 }
 
 .info {
-  position: relative;
   border-bottom: 10px solid #e65081;
 }
 .info__buttons {
-  position: absolute;
-  top: -90px;
-  left: 40px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  max-width: 85%;
-  margin: auto;
+  justify-content: center;
+  max-width: 77%;
+  margin: 0 auto;
   margin-top: 50px;
   padding: 0;
   border-radius: 5px;
   box-shadow: 3px 3px 3px #eb6a95, -3px 3px 3px #eb6a95;
 }
 .info__button {
-  flex-basis: 50%;
+  flex-basis: 40%;
   font-weight: bold;
-  margin: 10px;
-  padding: 15px;
+  height: 50px;
 }
 .info__button:hover {
   background: #eb6a95;
@@ -280,7 +275,7 @@
   border-radius: 5px;
   box-shadow: 3px 3px 5px #999999, -3px 3px 5px #999999;
   padding: 60px 20px 30px;
-  margin-top: 100px;
+  margin-top: -40px;
 }
 .info__post {
   display: none;

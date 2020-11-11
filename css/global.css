@@ -3,11 +3,7 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
-}
-
-.hidden {
-  display: none;
-}
+} 
 
 .welcome {
   display: none;
@@ -67,7 +63,7 @@
 }
 
 .product {
-  position: relative;
+  /* position: relative; */
 }
 .product__buttons,
 .buttons {
@@ -103,7 +99,7 @@
 }
 
 .slider {
-  position: absolute;
+  /* position: absolute; */
   top: -20px;
 }
 .slider__item, .about__item {
@@ -179,7 +175,6 @@
 }
 .arrow-btn {
   border-radius: 50%;
-  margin-right: 40px;
   max-width: 35px;
   max-height: 35px;
 }
@@ -376,205 +371,6 @@
   margin-top: 30px;
 }
 
-.modal {
-  display: none;
-}
-.modal__head {
-  padding-top: 15px;
-  padding-bottom: 20px;
-}
-.modal__bg-img {
-  max-width: 100%;
-  transform: rotate(180deg);
-}
-.modal__content {
-  color: #191a1c;
-  font-size: 12px;
-  margin: 20px 30px;
-}
-.modal__content-title {
-  font-size: 13px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.modal__content-text {
-  line-height: 16px;
-  margin-bottom: 20px;
-}
-.modal__footer {
-  background: #e65081;
-}
-.modal__btn {
-  margin-top: 15px;
-  margin-left: 30px;
-  margin-bottom: 15px;
-}
-
-.order {
-  display: none;
-}
-.head {
-  background: #a5c64f;
-  padding-bottom: 10px;
-}
-.bg-img {
-  max-width: 100%;
-}
-.company-name {
-  max-width: 60%;
-  margin: auto;
-}
-.order__item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 90%;
-  margin: auto;
-  margin-bottom: 30px;
-  margin-top: 20px;
-}
-.order__item-pre {
-  flex-basis: 30%;
-}
-.order__item-after {
-  flex-basis: 55%;
-  color: #999999;
-}
-.order__img {
-  max-width: 100px;
-  max-height: 80px;
-  object-fit: fill;
-  border-radius: 5px;
-  border: 10px solid #fff;
-  box-shadow: 0px 0px 5px #a5c64f;
-  margin-bottom: 5px;
-}
-.order__item-price {
-  text-align: center;
-  font-size: 12px;
-  font-weight: bold;
-  color: #999999;
-}
-.order__item-name {
-  max-width: 80%;
-  font-size: 12px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-.order__count-body {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.order__summary {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #a5c64f;
-  padding: 15px 0;
-  font-size: 12px;
-  color: #fff;
-  font-weight: bold;
-}
-.order__total-price {
-  margin-left: 40px;
-}
-.order__total-count {
-  margin-right: 100px;
-}
-.order__form {
-  font-size: 12px;
-  color: #999999;
-  width: 85%;
-  margin: auto;
-  margin-top: 30px;
-}
-.order__input {
-  font-size: 12px;
-  width: 100%;
-  padding: 5px 10px;
-  border: none;
-  border-bottom: 1px solid #999;
-  margin-bottom: 10px;
-}
-.order__form-title {
-  font-weight: bold;
-  margin-bottom: 30px;
-  margin-left: 15px;
-  margin-top: 50px;
-}
-.order__radio-box {
-  margin-bottom: 10px;
-}
-.order__radio {
-  vertical-align: middle;
-  margin-right: 5px;
-}
-.order__post {
-  margin-left: 21px;
-}
-.order__post-input {
-  padding-left: 0;
-}
-.order__ukrpost {
-  display: none;
-}
-.order__btn, .fee__btn, .status__btn {
-  margin-left: 87%;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  box-shadow: 0px 0px 5px #a5c64f;
-}
-
-.fee {
-  display: none;
-}
-.fee__content {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 40px;
-  color: #999999;
-  font-size: 12px;
-}
-.fee__title {
-  flex-basis: 35%;
-  font-style: italic;
-  text-align: right;
-  margin-left: 10px;
-}
-.fee__descr {
-  flex-basis: 55%;
-  font-weight: bold;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-.fee__btn, .status__btn {
-  margin-left: 80%;
-}
-
-.status__denied {
-  display: none;
-}
-.status__img {
-  display: block;
-  max-width: 70%;
-  margin: auto;
-  padding-top: 10%;
-}
-.status__descr {
-  color: #fff;
-  font-size: 12px;
-  max-width: 70%;
-  margin: 0 auto;
-  margin-top: 10px;
-  text-align: center;
-}
-.status__img-deny {
-  max-width: 50%;
-}
-.status__icons {
-  margin-bottom: 20px;
-}
-
 .basket {
   position: fixed;
   bottom: 0;
@@ -599,4 +395,15 @@
   display: inline-block;
   font-size: 12px;
   font-weight: bold;
+}
+
+.head {
+  padding: 0;
+}
+.bg-img {
+  max-width: 100%;
+}
+.company-name {
+  max-width: 60%;
+  margin: auto;
 }

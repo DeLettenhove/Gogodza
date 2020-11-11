@@ -1,0 +1,31 @@
+.status {
+  max-width: 100%;
+}
+.status__head {
+  background: #a5c64f;
+}
+.status__img {
+  display: block;
+  max-width: 70%;
+  margin: auto;
+  padding-top: 10%;
+}
+.status__descr {
+  color: #fff;
+  font-size: 12px;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.status__img-deny {
+  max-width: 50%;
+}
+.status__icons {
+  margin-bottom: 20px;
+}
+.status__btn {
+  margin-left: 80%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px #a5c64f;

@@ -1,0 +1,29 @@
+.fee__head {
+  background: #a5c64f;
+  padding: 0;
+}
+.fee__content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  color: #999999;
+  font-size: 12px;
+}
+.fee__title {
+  flex-basis: 35%;
+  font-style: italic;
+  text-align: right;
+  margin-left: 10px;
+}
+.fee__descr {
+  flex-basis: 55%;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.fee__btn {
+  margin-left: 80%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px #a5c64f;
+}

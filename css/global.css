@@ -8,6 +8,9 @@
   outline: none;
 }
 
+.welcome {
+  min-height: 350px;
+}
 .welcome__bg {
   object-fit: contain;
   max-width: 100%;
@@ -38,6 +41,7 @@
 }
 .menu {
   background: #e65081;
+  min-height: 350px;
 }
 .menu__nav {
   padding: 30px 0;

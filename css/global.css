@@ -37,7 +37,6 @@
   margin-bottom: 25px;
 }
 .menu {
-  display: none;
   background: #e65081;
 }
 .menu__nav {
@@ -284,9 +283,6 @@
   padding: 60px 20px 30px;
   margin-top: -40px;
 }
-.info__post {
-  display: none;
-}
 .info__post-img {
   flex-basis: 50%;
   object-fit: contain;
@@ -379,7 +375,6 @@
   position: fixed;
   bottom: 0;
   display: flex;
-  display: none;
   align-items: center;
   justify-content: space-between;
   background: #a5c64f;
@@ -410,4 +405,9 @@
 .company-name {
   max-width: 60%;
   margin: auto;
+}
+
+
+.hidden {
+  display: none;
 }

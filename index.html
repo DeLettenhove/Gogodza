@@ -11,12 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script type="text/javascript" src="./js/slick.min.js"></script>
-    <script src="./js/main.js"></script>
   </head>
   <body>
     <header class="header">
@@ -27,7 +21,7 @@
             alt="image"
             class="welcome__bg"
           />
-          <button class="menu-btn">
+          <button class="menu-btn menu-btn__open">
             <svg class="icon welcome__btn">
               <use xlink:href="./img/icons.svg#07_hamburger_menu"></use>
             </svg>
@@ -42,7 +36,14 @@
         <!-- /.welcome__subtitle -->
       </div>
       <!-- /.welcome -->
-      <div class="menu">
+      <div class="menu hidden">
+        <button class="menu-btn menu-btn__close">
+          <svg class="icon welcome__btn">
+            <use xlink:href="./img/icons.svg#07_01_hamburger_menu"></use>
+          </svg>
+          <!-- /.welcome__btn -->
+        </button>
+        <!-- /.menu-btn -->
         <ul class="menu__nav">
           <li class="menu__item">
             <svg class="menu__icon">
@@ -267,7 +268,7 @@
           <!-- /.info__btn -->
         </div>
         <!-- /.info__buttons -->
-        <div class="info-card info__post">
+        <div class="info-card info__post hidden">
           <img
             src="./img/07_nova_poshta_logo.png"
             alt="NovaPoshta"
@@ -365,7 +366,7 @@
     </fotter>
     <!-- /.footer -->
 
-    <section class="basket">
+    <section class="basket hidden">
       <div class="basket__box">
         <div class="basket__text">У кошику:</div>
         <!-- /.basket__text -->
@@ -387,5 +388,12 @@
     <!-- /.basket -->
 
     <!-- /.hidden -->
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

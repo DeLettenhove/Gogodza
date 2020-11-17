@@ -5,108 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GOGODZA</title>
     <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
     <script type="text/javascript" src="./js/slick.min.js"></script>
     <script src="./js/main.js"></script>
   </head>
   <body>
-    <div class="hidden">
-      <header class="header">
-        <div class="welcome">
-          <div class="welcome__title">
-            <img src="./img/01_top_illustration.png" alt="picture" class="welcome__bg">
-            <button class="menu-btn">
-              <svg class="icon welcome__btn">
-                <use xlink:href="./img/icons.svg#07_hamburger_menu"></use>
-              </svg>
+    <header class="header">
+      <div class="welcome">
+        <div class="welcome__title">
+          <img
+            src="./img/01_top_illustration.png"
+            alt="image"
+            class="welcome__bg"
+          />
+          <button class="menu-btn">
+            <svg class="icon welcome__btn">
+              <use xlink:href="./img/icons.svg#07_hamburger_menu"></use>
+            </svg>
             <!-- /.welcome__btn -->
-            </button> <!-- /.menu-btn -->
-          </div>
-          <!-- /.welcome__title -->
-          <div class="welcome__subtitle">
-            <img src="./img/02_text1.png" alt="text" class="welcome__text" />
-          </div>
-          <!-- /.welcome__subtitle -->
+          </button>
+          <!-- /.menu-btn -->
         </div>
-        <!-- /.welcome -->
-        <div class="menu">
-          <ul class="menu__nav">
-            <li class="menu__item">
-              <svg class="menu__icon">
-                <use xlink:href="./img/icons.svg#08_menu_home_icon"></use>
-              </svg>
-            <a href="#" class="menu__link">На головну</a> <!-- /.menu__link --></li>
-            <!-- /.menu__item -->
-            <li class="menu__item">
-              <svg class="menu__icon">
-                <use xlink:href="./img/icons.svg#09_menu_buy_icon"></use>
-              </svg>
-              <a href="#" class="menu__link">Кошик</a> <!-- /.menu__link --></li>
-            <!-- /.menu__item -->
-            <li class="menu__item">
-              <svg class="menu__icon">
-                <use xlink:href="./img/icons.svg#10_menu_assortment_icon"></use>
-              </svg>
-              <a href="#" class="menu__link">Асортимент</a> <!-- /.menu__link --></li>
-            <!-- /.menu__item -->
-            <li class="menu__item">
-              <svg class="menu__icon">
-                <use xlink:href="./img/icons.svg#11_menu_payment_icon"></use>
-              </svg>
-              <a href="#" class="menu__link">Оплата</a> <!-- /.menu__link --></li>
-            <!-- /.menu__item -->
-            <li class="menu__item">
-              <svg class="menu__icon">
-                <use xlink:href="./img/icons.svg#12_menu_delivery_icon"></use>
-              </svg>
-              <a href="#" class="menu__link">Доставка</a> <!-- /.menu__link --></li>
-            <!-- /.menu__item -->
-            <li class="menu__item">
-              <svg class="menu__icon">
-                <use xlink:href="./img/icons.svg#13_menu_contacts_icon"></use>
-              </svg>
-              <a href="#" class="menu__link">Контакти</a> <!-- /.menu__link --></li>
-            <!-- /.menu__item -->
-          </ul>
-          <!-- /.menu__nav -->
+        <!-- /.welcome__title -->
+        <div class="welcome__subtitle">
+          <img src="./img/02_text1.png" alt="text" class="welcome__text" />
         </div>
-        <!-- /.menu -->
-      </header>
-      <!-- /.header -->
-  
-      <main class="main">
-        <section class="product">
-          <div class="buttons product__buttons">
-            <button class="button product__button product__button_l">
-              <h2 class="product__button-label">L</h2> <!-- /.product__button-label -->
-              <span class="product__button-count">24 шт.</span> <!-- /.product__button-count -->
-            </button>
-            <!-- /.product__button -->
-            <button class="button product__button product__button_m">
-              <h2 class="product__button-label">M</h2> <!-- /.product__button-label -->
-              <span class="product__button-count">16 шт.</span> <!-- /.product__button-count -->
-            </button>
-            <!-- /.product__button -->
-            <button class="button product__button product__button_s">
-              <h2 class="product__button-label">S</h2> <!-- /.product__button-label -->
-              <span class="product__button-count">8 шт.</span> <!-- /.product__button-count -->
-            </button>
-            <!-- /.product__button -->
-          </div>
-          <!-- /.product__buttons -->
-          
-          <div class="container">
-            <div class="slider">
+        <!-- /.welcome__subtitle -->
+      </div>
+      <!-- /.welcome -->
+      <div class="menu">
+        <ul class="menu__nav">
+          <li class="menu__item">
+            <svg class="menu__icon">
+              <use xlink:href="./img/icons.svg#08_menu_home_icon"></use>
+            </svg>
+            <a href="#" class="menu__link">На головну</a>
+            <!-- /.menu__link -->
+          </li>
+          <!-- /.menu__item -->
+          <li class="menu__item">
+            <svg class="menu__icon">
+              <use xlink:href="./img/icons.svg#09_menu_buy_icon"></use>
+            </svg>
+            <a href="#" class="menu__link">Кошик</a>
+            <!-- /.menu__link -->
+          </li>
+          <!-- /.menu__item -->
+          <li class="menu__item">
+            <svg class="menu__icon">
+              <use xlink:href="./img/icons.svg#10_menu_assortment_icon"></use>
+            </svg>
+            <a href="#" class="menu__link">Асортимент</a>
+            <!-- /.menu__link -->
+          </li>
+          <!-- /.menu__item -->
+          <li class="menu__item">
+            <svg class="menu__icon">
+              <use xlink:href="./img/icons.svg#11_menu_payment_icon"></use>
+            </svg>
+            <a href="#" class="menu__link">Оплата</a>
+            <!-- /.menu__link -->
+          </li>
+          <!-- /.menu__item -->
+          <li class="menu__item">
+            <svg class="menu__icon">
+              <use xlink:href="./img/icons.svg#12_menu_delivery_icon"></use>
+            </svg>
+            <a href="#" class="menu__link">Доставка</a>
+            <!-- /.menu__link -->
+          </li>
+          <!-- /.menu__item -->
+          <li class="menu__item">
+            <svg class="menu__icon">
+              <use xlink:href="./img/icons.svg#13_menu_contacts_icon"></use>
+            </svg>
+            <a href="#" class="menu__link">Контакти</a>
+            <!-- /.menu__link -->
+          </li>
+          <!-- /.menu__item -->
+        </ul>
+        <!-- /.menu__nav -->
+      </div>
+      <!-- /.menu -->
+    </header>
+    <!-- /.header -->
+
+    <main class="main">
+      <section class="product">
+        <div class="buttons product__buttons">
+          <button class="button product__button product__button_l">
+            <h2 class="product__button-label">L</h2>
+            <!-- /.product__button-label -->
+            <span class="product__button-count">24 шт.</span>
+            <!-- /.product__button-count -->
+          </button>
+          <!-- /.product__button -->
+          <button class="button product__button product__button_m">
+            <h2 class="product__button-label">M</h2>
+            <!-- /.product__button-label -->
+            <span class="product__button-count">16 шт.</span>
+            <!-- /.product__button-count -->
+          </button>
+          <!-- /.product__button -->
+          <button class="button product__button product__button_s">
+            <h2 class="product__button-label">S</h2>
+            <!-- /.product__button-label -->
+            <span class="product__button-count">8 шт.</span>
+            <!-- /.product__button-count -->
+          </button>
+          <!-- /.product__button -->
+        </div>
+        <!-- /.product__buttons -->
+
+        <div class="container">
+          <div class="slider">
             <div class="slider__item">
               <h5 class="slider__title">Пакунок льодяників</h5>
               <!-- /.slider__title -->
               <h2 class="slider__name">"Сімейний"</h2>
               <!-- /.slider__name -->
-              <img src="./img/02_L_test_image.jpg" alt="candy" class="slider__img">
+              <img
+                src="./img/02_L_test_image.jpg"
+                alt="candy"
+                class="slider__img"
+              />
               <div class="slider__price">256 грн.</div>
-              <!-- /.slider__price -->  
+              <!-- /.slider__price -->
               <div class="slider__count count">
                 <button class="slider__count-pre count-pre">-</button>
                 <!-- /.slider__count-pre -->
@@ -123,15 +156,19 @@
               </div>
             </div>
             <!-- /.slider__inner -->
-  
+
             <div class="slider__item">
               <h5 class="slider__title">Пакунок льодяників</h5>
               <!-- /.slider__title -->
               <h2 class="slider__name">"Дитячий"</h2>
               <!-- /.slider__name -->
-              <img src="./img/02_M_test_image.jpg" alt="candy" class="slider__img">
+              <img
+                src="./img/02_M_test_image.jpg"
+                alt="candy"
+                class="slider__img"
+              />
               <div class="slider__price">180 грн.</div>
-              <!-- /.slider__price -->  
+              <!-- /.slider__price -->
               <div class="slider__count">
                 <button class="slider__count-pre count-pre">-</button>
                 <!-- /.slider__count-pre -->
@@ -148,15 +185,19 @@
               </div>
             </div>
             <!-- /.slider__inner -->
-  
+
             <div class="slider__item">
               <h5 class="slider__title">Пакунок льодяників</h5>
               <!-- /.slider__title -->
               <h2 class="slider__name">"Для мене"</h2>
               <!-- /.slider__name -->
-              <img src="./img/02_S_test_image.jpg" alt="candy" class="slider__img">
+              <img
+                src="./img/02_S_test_image.jpg"
+                alt="candy"
+                class="slider__img"
+              />
               <div class="slider__price">90 грн.</div>
-              <!-- /.slider__price -->  
+              <!-- /.slider__price -->
               <div class="slider__count">
                 <button class="slider__count-pre count-pre">-</button>
                 <!-- /.slider__count-pre -->
@@ -174,152 +215,177 @@
             </div>
             <!-- /.slider__inner -->
           </div>
-          <!-- /.slider --></div>
-  
-          <img src="./img/03_background.png" alt="" class="product__footer">
-            <!-- /.slider__footer -->
-          
-        </section>
-        <!-- /.product -->      
-        <section class="about">
-          <div class="head about__head">
-            <div class="logo about__logo">
-              <svg class="logo-img about__logo-img">
-                <use xlink:href="./img/icons.svg#01_gogodza_icon"></use>
-              </svg>
-            </div>
-            <h6 class="company-title about__title">Інтернет-магазин</h6>
-            <h2 class="company-name about__name">Gogodza Candy</h2>
-          </div>
-          <!-- /.about__head -->
-          <div class="about__content">
-            <div class="about__item">
-              <p class="about__text">ТМ Гогодза - це український виробник
-                льодяників із справжніх висушених
-                лісових ягод та шматочків фруктів.
-                Ми не використовуємо синтетичних
-                барвників, які фарбують дитячий язик
-                та шкодять здоров‘ю.</p>
-              <!-- /.about__text -->
-              <img class="about__img" src="./img/04_image.jpg" alt="photo">
-              <!-- /.about__img -->
-              <p class="about__text">Ягоди та фрукти нічим не оброблені,
-                тільки висушені при оптимальних
-                температурах згідно ДСТ України.</p>
-              <!-- /.about__tetx -->
-            </div>
-          </div>
-          <!-- /.about__content -->
-          <div class="about__footer">
-            <img src="./img/05_text.png" alt="text" class="about__subtitle">
-            <img src="./img/06_image.jpg" alt="img" class="about__footer-bg">
-          </div>
-          <!-- /.about__footer -->
-        </section>
-        <!-- /.about -->      
-        <section class="info">
-          <div class="buttons info__buttons">
-            <button class="button info__button">Доставка</button> 
-            <!-- /.info__btn -->
-            <button class="button info__button">Оплата</button> 
-            <!-- /.info__btn -->
-          </div>
-          <!-- /.info__buttons -->
-          <div class="info-card info__post">
-            <img src="./img/07_nova_poshta_logo.png" alt="NovaPoshta" class="info__post-img">
-            <img src="./img/08_ukrposhta_logo.png" alt="UkrPoshta" class="info__post-img">
-          </div>
-          <!-- /.info__post -->
-          <div class="info-card info__pay">
-            <ul class="info__pay-list">
-              <li class="info__pay-item">
-                <span class="info__pay-text">банківською карткою на сайті</span>
-              </li>
-              <!-- /.info__pay-item -->
-              <li class="info__pay-item">
-                <span class="info__pay-text">наложним платежем
-                у службі доставки</span></li>
-              <!-- /.info__pay-item -->
-            </ul>
-            <!-- /.info__pay-list -->
-          </div>
-          <div class="info__payment">
-            <img src="./img/09_visa_icon.png" alt="" class="info__payment-img">
-            <img src="./img/10_mastercard_icon.png" alt="" class="info__payment-img">
-            <img src="./img/11_liqpay_icon.png" alt="" class="info__payment-img liqpay">
-          </div>
-          <!-- /.info__payment -->
-        </section>
-        <!-- /.info -->
-      </main>
-      <!-- /.main -->
-  
-      <fotter class="footer">
-        <div class="contact">
-          <div class="contact__inner">
-            <div class="contact__icons">
-              <svg class="contact__icon">
-                <use xlink:href="./img/icons.svg#14_footer_telegram_icon"></use>
-              </svg>
-              <svg class="contact__icon">
-                <use xlink:href="./img/icons.svg#15_footer_viber_icon"></use>
-              </svg>
-              <svg class="contact__icon">
-                <use xlink:href="./img/icons.svg#16_footer_insta_icon"></use>
-              </svg>
-              <svg class="contact__icon">
-                <use xlink:href="./img/icons.svg#17_footer_call_icon"></use>
-              </svg>
-              <svg class="contact__icon">
-                <use xlink:href="./img/icons.svg#18_footer_email_icon"></use>
-              </svg>
-            </div>
-            <!-- /.footer__icons -->
-            <div class="contact__phone">+380 (67) 111 74 00</div>
-            <!-- /.contact__phone -->
-            <div class="contact__address">м. Чернівці, просп. Незалежності 104 А</div>
-            <!-- /.contact__address -->
-            <div class="contact__agreement">
-              <div class="contact__agreement-img">
-                <svg class="contact__agreement-icon">
-                  <use xlink:href="./img/icons.svg#24_footer_agreement_icon"></use>
-                </svg>
-              </div>
-            <!-- /.contact__agreement-img -->
-              <a href="/html/agreement.html" class="contact__agreement-text">Договорі публічної оферти</a> 
-              <!-- /.contact__agreement-text -->
-            </div>
-            <!-- /.contact__agreement -->
-            <a href="./html/agreement.html" class="contact__link">gogodza.com.ua, 2020</a> 
-            <!-- /.contact__link -->
-          </div>
-          <!-- /.contact__inner -->
+          <!-- /.slider -->
         </div>
-        <!-- /.contact -->
-      </fotter>
-      <!-- /.footer -->
 
-      <section class="basket">
-        <div class="basket__box">
-          <div class="basket__text">У кошику:</div>
-          <!-- /.basket__text -->
-          <div class="basket__description">5 шт.</div>
-          <!-- /.basket__description -->
-          <div class="basket__text">Вартість:</div>
-          <!-- /.basket__text -->
-          <div class="basket__description">768 грн.</div>
-          <!-- /.basket__description -->
-        </div>
-        <!-- /.basket__box -->
-        <button class="basket__btn togo-btn">
-          <svg class="arrow-btn">
-            <use xlink:href="./img/icons.svg#04_forward_icon_round1"></use>
-          </svg>
-        </button> 
-        <!-- /.basket__btn -->
+        <img src="./img/03_background.png" alt="" class="product__footer" />
+        <!-- /.slider__footer -->
       </section>
-      <!-- /.basket -->
-    </div>
+      <!-- /.product -->
+      <section class="about">
+        <div class="head about__head">
+          <div class="logo about__logo">
+            <svg class="logo-img about__logo-img">
+              <use xlink:href="./img/icons.svg#01_gogodza_icon"></use>
+            </svg>
+          </div>
+          <h6 class="company-title about__title">Інтернет-магазин</h6>
+          <h2 class="company-name about__name">Gogodza Candy</h2>
+        </div>
+        <!-- /.about__head -->
+        <div class="about__content">
+          <div class="about__item">
+            <p class="about__text">
+              ТМ Гогодза - це український виробник льодяників із справжніх
+              висушених лісових ягод та шматочків фруктів. Ми не використовуємо
+              синтетичних барвників, які фарбують дитячий язик та шкодять
+              здоров‘ю.
+            </p>
+            <!-- /.about__text -->
+            <img class="about__img" src="./img/04_image.jpg" alt="photo" />
+            <!-- /.about__img -->
+            <p class="about__text">
+              Ягоди та фрукти нічим не оброблені, тільки висушені при
+              оптимальних температурах згідно ДСТ України.
+            </p>
+            <!-- /.about__tetx -->
+          </div>
+        </div>
+        <!-- /.about__content -->
+        <div class="about__footer">
+          <img src="./img/05_text.png" alt="text" class="about__subtitle" />
+          <img src="./img/06_image.jpg" alt="img" class="about__footer-bg" />
+        </div>
+        <!-- /.about__footer -->
+      </section>
+      <!-- /.about -->
+      <section class="info">
+        <div class="buttons info__buttons">
+          <button class="button info__button">Доставка</button>
+          <!-- /.info__btn -->
+          <button class="button info__button">Оплата</button>
+          <!-- /.info__btn -->
+        </div>
+        <!-- /.info__buttons -->
+        <div class="info-card info__post">
+          <img
+            src="./img/07_nova_poshta_logo.png"
+            alt="NovaPoshta"
+            class="info__post-img"
+          />
+          <img
+            src="./img/08_ukrposhta_logo.png"
+            alt="UkrPoshta"
+            class="info__post-img"
+          />
+        </div>
+        <!-- /.info__post -->
+        <div class="info-card info__pay">
+          <ul class="info__pay-list">
+            <li class="info__pay-item">
+              <span class="info__pay-text">банківською карткою на сайті</span>
+            </li>
+            <!-- /.info__pay-item -->
+            <li class="info__pay-item">
+              <span class="info__pay-text"
+                >наложним платежем у службі доставки</span
+              >
+            </li>
+            <!-- /.info__pay-item -->
+          </ul>
+          <!-- /.info__pay-list -->
+        </div>
+        <div class="info__payment">
+          <img src="./img/09_visa_icon.png" alt="" class="info__payment-img" />
+          <img
+            src="./img/10_mastercard_icon.png"
+            alt=""
+            class="info__payment-img"
+          />
+          <img
+            src="./img/11_liqpay_icon.png"
+            alt=""
+            class="info__payment-img liqpay"
+          />
+        </div>
+        <!-- /.info__payment -->
+      </section>
+      <!-- /.info -->
+    </main>
+    <!-- /.main -->
+
+    <fotter class="footer">
+      <div class="contact">
+        <div class="contact__inner">
+          <div class="contact__icons">
+            <svg class="contact__icon">
+              <use xlink:href="./img/icons.svg#14_footer_telegram_icon"></use>
+            </svg>
+            <svg class="contact__icon">
+              <use xlink:href="./img/icons.svg#15_footer_viber_icon"></use>
+            </svg>
+            <svg class="contact__icon">
+              <use xlink:href="./img/icons.svg#16_footer_insta_icon"></use>
+            </svg>
+            <svg class="contact__icon">
+              <use xlink:href="./img/icons.svg#17_footer_call_icon"></use>
+            </svg>
+            <svg class="contact__icon">
+              <use xlink:href="./img/icons.svg#18_footer_email_icon"></use>
+            </svg>
+          </div>
+          <!-- /.footer__icons -->
+          <div class="contact__phone">+380 (67) 111 74 00</div>
+          <!-- /.contact__phone -->
+          <div class="contact__address">
+            м. Чернівці, просп. Незалежності 104 А
+          </div>
+          <!-- /.contact__address -->
+          <div class="contact__agreement">
+            <div class="contact__agreement-img">
+              <svg class="contact__agreement-icon">
+                <use
+                  xlink:href="./img/icons.svg#24_footer_agreement_icon"
+                ></use>
+              </svg>
+            </div>
+            <!-- /.contact__agreement-img -->
+            <a href="/html/agreement.html" class="contact__agreement-text"
+              >Договір публічної оферти</a
+            >
+            <!-- /.contact__agreement-text -->
+          </div>
+          <!-- /.contact__agreement -->
+          <a href="#" class="contact__link">gogodza.com.ua, 2020</a>
+          <!-- /.contact__link -->
+        </div>
+        <!-- /.contact__inner -->
+      </div>
+      <!-- /.contact -->
+    </fotter>
+    <!-- /.footer -->
+
+    <section class="basket">
+      <div class="basket__box">
+        <div class="basket__text">У кошику:</div>
+        <!-- /.basket__text -->
+        <div class="basket__description">5 шт.</div>
+        <!-- /.basket__description -->
+        <div class="basket__text">Вартість:</div>
+        <!-- /.basket__text -->
+        <div class="basket__description">768 грн.</div>
+        <!-- /.basket__description -->
+      </div>
+      <!-- /.basket__box -->
+      <button class="basket__btn togo-btn">
+        <svg class="arrow-btn">
+          <use xlink:href="./img/icons.svg#04_forward_icon_round1"></use>
+        </svg>
+      </button>
+      <!-- /.basket__btn -->
+    </section>
+    <!-- /.basket -->
+
     <!-- /.hidden -->
   </body>
 </html>

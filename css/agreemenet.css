@@ -3,6 +3,9 @@
   padding-top: 15px;
   padding-bottom: 20px;
 }
+.modal__logo {
+  padding-top: 0;
+}
 .modal__bg-img {
   max-width: 100%;
   transform: rotate(180deg);
@@ -28,4 +31,7 @@
   margin-top: 15px;
   margin-left: 30px;
   margin-bottom: 15px;
+}
+.modal__menu-btn {
+  margin-top: 0;
 }

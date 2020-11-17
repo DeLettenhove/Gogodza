@@ -3,7 +3,10 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
-} 
+}
+:focus {
+  outline: none;
+}
 
 .welcome__bg {
   object-fit: contain;
@@ -15,13 +18,14 @@
 }
 .menu-btn {
   position: absolute;
-  top: -50px;
+  top: 10px;
   right: 20px;
   border: none;
   background: transparent;
 }
 .icon {
   width: 25px;
+  height: 25px;
   color: #e65081;
   cursor: pointer;
 }
@@ -58,7 +62,6 @@
   height: 20px;
   margin-right: 20px;
 }
-
 
 .product__buttons,
 .buttons {
@@ -97,32 +100,9 @@
   margin-top: -20px;
   overflow: hidden;
 }
-.slick-track {
-  display: flex;
-}
-.slick-dots {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  margin: -10px 0 20px;
-}
-.slick-dots li {
-  margin: 0 10px;
-  list-style: none;
-}
-.slick-dots button {
-  font-size: 0;
-  width: 10px;
-  height: 10px;
-  background-color: transparent;
-  border: 1px solid #999;
-  border-radius: 50%
-}
-.slick-dots .slick-active button{
-  background-color: #999;
-}
-.slider__item, .about__item {
+.slider__item,
+.about__item {
   position: relative;
   max-width: 90%;
   margin-left: 20px;
@@ -176,7 +156,8 @@
   font-weight: bold;
   margin-bottom: 30px;
 }
-.count-pre, .count-after {
+.count-pre,
+.count-after {
   cursor: pointer;
   color: #fff;
   background: #e65081;
@@ -345,18 +326,21 @@
   font-size: 12px;
   font-weight: 600;
 }
-.contact__inner, .status__inner {
+.contact__inner,
+.status__inner {
   max-width: 75%;
   margin: auto;
   padding-bottom: 20px;
 }
-.contact__icons, .status__icons {
+.contact__icons,
+.status__icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
 }
-.contact__icon, .status__icon {
+.contact__icon,
+.status__icon {
   width: 25px;
   height: 25px;
 }
@@ -369,8 +353,8 @@
 .contact__agreement {
   display: flex;
   align-items: center;
-  max-width: 90%;
-  margin: auto;
+  justify-content: center;
+  margin: 0 auto;
   margin-top: 30px;
 }
 .contact__agreement-text {
@@ -381,7 +365,6 @@
   max-width: 15px;
   max-height: 15px;
   margin-right: 10px;
-  margin-left: 15px;
 }
 .contact__link {
   display: block;

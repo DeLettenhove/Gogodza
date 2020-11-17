@@ -9,7 +9,7 @@
 }
 
 .welcome {
-  height: 350px;
+  min-height: 350px;
 }
 .welcome__bg {
   object-fit: contain;
@@ -285,7 +285,7 @@
   height: 150px;
   margin: auto;
   border-radius: 5px;
-  box-shadow: 3px 3px 5px #999999, -3px 3px 5px #999999;
+  box-shadow: 5px 5px 5px #999999, -5px 5px 3px #999999;
   padding: 60px 20px 30px;
   margin-top: -40px;
 }
@@ -382,15 +382,14 @@
   position: fixed;
   bottom: 0;
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   background: #a5c64f;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 30px;
 }
 .basket__box {
-  flex-basis: 45%;
-  margin-left: 50px;
+  flex-basis: 55%;
   color: #fff;
 }
 .basket__text {

@@ -9,7 +9,7 @@
 }
 
 .welcome {
-  min-height: 350px;
+  height: 350px;
 }
 .welcome__bg {
   object-fit: contain;
@@ -44,9 +44,10 @@
   min-height: 350px;
 }
 .menu__nav {
-  padding: 30px 0;
+  padding: 50px 0;
 }
 .menu__item {
+  color: #fff;
   list-style: none;
   display: flex;
   align-items: center;
@@ -56,14 +57,14 @@
 .menu__item:not(:last-child) {
   margin-bottom: 20px;
 }
-.menu__link {
-  text-decoration: none;
-  color: #fff;
-}
 .menu__icon {
   width: 20px;
   height: 20px;
   margin-right: 20px;
+}
+.menu__link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .product__buttons,
@@ -279,8 +280,9 @@
 .info-card {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 90%;
+  height: 150px;
   margin: auto;
   border-radius: 5px;
   box-shadow: 3px 3px 5px #999999, -3px 3px 5px #999999;
@@ -288,10 +290,11 @@
   margin-top: -40px;
 }
 .info__post-img {
-  flex-basis: 50%;
+  flex-basis: 40%;
   object-fit: contain;
-  width: 70px;
-  height: 90px;
+  margin: 0 10px;
+  width: 60px;
+  height: 60px;
 }
 .info__pay {
   font-size: 12px;

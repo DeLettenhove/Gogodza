@@ -8,7 +8,6 @@
   outline: none;
 }
 
-
 .welcome {
   min-height: 350px;
 }
@@ -45,7 +44,7 @@
   min-height: 350px;
 }
 .menu__nav {
-  padding: 50px 0;
+  padding-top: 50px;
 }
 .menu__item {
   color: #fff;

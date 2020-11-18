@@ -35,7 +35,7 @@ const toProduct = document.querySelector(".toProduct");
 const toPayment = document.querySelector(".toPayment");
 const toDelivery = document.querySelector(".toDelivery");
 const toContact = document.querySelector(".toContact");
-const cart = document.querySelector(".slider__button");
+const cart = document.querySelectorAll(".slider__button");
 
 function pinkMenuOpen() {
   pinkMenu.classList.toggle("hidden");
@@ -91,4 +91,6 @@ toProduct.addEventListener("click", scrollToProduct);
 toPayment.addEventListener("click", scrollToPayment);
 toDelivery.addEventListener("click", scrollToDelivery);
 toContact.addEventListener("click", scrollToContact);
-cart.addEventListener("click", openCart);
+for (let value of cart) {
+  value.addEventListener("click", openCart);
+}

@@ -9,10 +9,10 @@
 }
 
 .welcome {
-  height: 350px;
+  min-height: 350px;
 }
 .welcome__bg {
-  object-fit: contain;
+  object-fit: cover;
   max-width: 100%;
 }
 .welcome__title {
@@ -34,17 +34,17 @@
 }
 .welcome__text {
   display: block;
-  object-fit: contain;
+  object-fit: cover;
   max-width: 60%;
   margin: auto;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 .menu {
   background: #e65081;
-  height: 350px;
+  min-height: 350px;
 }
 .menu__nav {
-  padding-top: 50px;
+  padding: 50px 0;
 }
 .menu__item {
   color: #fff;
@@ -412,7 +412,6 @@
   max-width: 60%;
   margin: auto;
 }
-
 
 .hidden {
   display: none;

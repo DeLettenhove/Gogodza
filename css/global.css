@@ -9,7 +9,7 @@
 }
 
 .welcome {
-  min-height: 350px;
+  height: 350px;
 }
 .welcome__bg {
   object-fit: contain;
@@ -41,7 +41,7 @@
 }
 .menu {
   background: #e65081;
-  min-height: 350px;
+  height: 350px;
 }
 .menu__nav {
   padding-top: 50px;

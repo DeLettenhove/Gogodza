@@ -21,7 +21,7 @@ const product = document.querySelector(".product");
 const about = document.querySelector(".about");
 const info = document.querySelector(".info");
 const contact = document.querySelector(".contact");
-const menu = document.querySelector(".menu");
+const pinkMenu = document.querySelector(".menu");
 const basket = document.querySelector(".basket");
 
 const postInfo = document.querySelector(".info__post");
@@ -37,8 +37,8 @@ const toDelivery = document.querySelector(".toDelivery");
 const toContact = document.querySelector(".toContact");
 const cart = document.querySelector(".slider__button");
 
-function menuOpen() {
-  menu.classList.toggle("hidden");
+function pinkMenuOpen() {
+  pinkMenu.classList.toggle("hidden");
   welcome.classList.toggle("hidden");
 }
 
@@ -53,12 +53,12 @@ function decrPost() {
 }
 
 function openCart() {
-  basket.classList.toggle('hidden');
+  basket.classList.toggle("hidden");
 }
 
 function scrollToWelcome() {
   welcome.scrollIntoView();
-  menu.classList.toggle("hidden");
+  pinkMenu.classList.toggle("hidden");
   welcome.classList.toggle("hidden");
 }
 
@@ -82,8 +82,8 @@ function scrollToContact() {
   contact.scrollIntoView();
 }
 
-menuBtnOpen.addEventListener("click", menuOpen);
-menuBtnClose.addEventListener("click", menuOpen);
+menuBtnOpen.addEventListener("click", pinkMenuOpen);
+menuBtnClose.addEventListener("click", pinkMenuOpen);
 feeButton.addEventListener("click", decrPay);
 postButton.addEventListener("click", decrPost);
 toWelcome.addEventListener("click", scrollToWelcome);
@@ -91,4 +91,4 @@ toProduct.addEventListener("click", scrollToProduct);
 toPayment.addEventListener("click", scrollToPayment);
 toDelivery.addEventListener("click", scrollToDelivery);
 toContact.addEventListener("click", scrollToContact);
-cart.addEventListener('click', openCart);
+cart.addEventListener("click", openCart);

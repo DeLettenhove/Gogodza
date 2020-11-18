@@ -1,5 +1,14 @@
 .order__head {
   background: #a5c64f;
+  padding-bottom: 10px;
+}
+.order__menu {
+  background: #a5c64f;
+  min-height: 200px;
+}
+.order__nav {
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 .order__bg-img {
   max-width: 100%;

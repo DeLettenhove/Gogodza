@@ -7,7 +7,14 @@
 :focus {
   outline: none;
 }
-
+.back-to-menu {
+  position: absolute;
+  background: transparent;
+  border: none;
+  transform: rotate(180deg);
+  margin-left: 5%;
+  margin-top: 3%;
+}
 
 .welcome__bg {
   object-fit: cover;
@@ -263,7 +270,6 @@
   margin-top: 50px;
   padding: 0;
   border-radius: 5px;
-  box-shadow: 3px 3px 3px #eb6a95, -3px 3px 3px #eb6a95;
 }
 .info__button {
   flex-basis: 40%;

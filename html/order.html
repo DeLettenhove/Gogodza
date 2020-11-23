@@ -12,6 +12,15 @@
 <body>
   <section class="order">
     <div class="order__header">
+      <button class="back-to-menu">
+        <a href="../index.html" class="order__back-link">
+          <svg class="icon">
+            <use xlink:href="../img/icons.svg#04_forward_icon_round2"></use>
+          </svg>
+        </a> 
+        <!-- /.order__back-link -->
+      </button> 
+      <!-- /.back-to-menu-->
     <div class="head order__head">
         <div class="logo order  __logo">
           <svg class="logo-img order__logo-img">
@@ -38,11 +47,11 @@
           <b>«Сімейний»</b></div>
         <!-- /.order__item-name -->
         <div class="order__count count">
-          <button class="order__count-pre count-pre">-</button>
+          <button class="order__count-pre count-pre" data-count-pre>-</button>
           <!-- /.slider__count-pre -->
-          <button class="order__count-body count-body">3</button>
+          <button class="order__count-body count-body" data-counter>0</button>
           <!-- /.slider__count-body -->
-          <button class="order__count-after count-after">+</button>
+          <button class="order__count-after count-after" data-count-after>+</button>
           <!-- /.slider__count-after -->
         </div>
         <!-- /.slider__count -->
@@ -62,11 +71,11 @@
           <b>«Дитячий»</b></div>
         <!-- /.order__item-name -->
         <div class="order__count count">
-          <button class="order__count-pre count-pre">-</button>
+          <button class="order__count-pre count-pre" data-count-pre>-</button>
           <!-- /.slider__count-pre -->
-          <button class="order__count-body count-body">3</button>
+          <button class="order__count-body count-body" data-counter>0</button>
           <!-- /.slider__count-body -->
-          <button class="order__count-after count-after">+</button>
+          <button class="order__count-after count-after" data-count-after>+</button>
           <!-- /.slider__count-after -->
         </div>
         <!-- /.slider__count -->
@@ -86,11 +95,11 @@
           <b>«Для мене»</b></div>
         <!-- /.order__item-name -->
         <div class="order__count count">
-          <button class="order__count-pre count-pre">-</button>
+          <button class="order__count-pre count-pre" data-count-pre>-</button>
           <!-- /.slider__count-pre -->
-          <button class="order__count-body count-body">3</button>
+          <button class="order__count-body count-body" data-counter>0</button>
           <!-- /.slider__count-body -->
-          <button class="order__count-after count-after">+</button>
+          <button class="order__count-after count-after" data-count-after>+</button>
           <!-- /.slider__count-after -->
         </div>
         <!-- /.slider__count -->
@@ -148,5 +157,6 @@
     </div>
   </section>
   <!-- /.order -->
+  <script src="../js/counter.js"></script>
 </body>
 </html>

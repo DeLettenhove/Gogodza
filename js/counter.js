@@ -2,14 +2,14 @@
 function basketDescr() {
   let count = 0;
   let sum = 0;
+  let prices = [256, 180, 90];
   let counts = document.querySelectorAll('.count-body');
-  let prices = document.querySelectorAll('.price');
   for (let i = 0; i < counts.length; i++) {
       count += +counts[i].innerHTML;
-      sum += +counts[i].innerHTML * +prices[i].innerHTML;
+      sum += +counts[i].innerHTML * prices[i];
   }
-  document.querySelectorAll('.basket__description')[0].innerHTML = count + ' шт.';
-  document.querySelectorAll('.basket__description')[1].innerHTML = sum + ' грн.';
+  document.querySelector("#total-price").innerHTML = sum + ' грн.';
+  document.querySelector('#total-count').innerHTML = count + ' шт.';
 }
 
 document.addEventListener('click', function(event) {
